@@ -1,7 +1,10 @@
  
 # Frappé Design  
 
-Frappé Design is a collective repository for the design components of frappé erpnext & and related technologies
+Frappé Design is a collective repository for the design components of frappé erpnext & and related technologies. The design team works on the visual language and user experience of Frappe and ERPNext. 
+
+# Contributing to Frappe Design
+The best way to contribute is participate in the design related discussions in the [forum](https://discuss.erpnext.com). Take a look at ongoing design projects in the issue tab and submit designs by sending a PR or commenting on the issues.
 
 # License  
 
