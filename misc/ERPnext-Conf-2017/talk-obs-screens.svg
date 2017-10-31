@@ -19,29 +19,6 @@
    sodipodi:docname="talk-obs-screens.svg">
   <defs
      id="defs4">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient996">
-      <stop
-         style="stop-color:#96a1be;stop-opacity:1"
-         offset="0"
-         id="stop992" />
-      <stop
-         style="stop-color:#212121;stop-opacity:0.00884956"
-         offset="1"
-         id="stop994" />
-    </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient996"
-       id="radialGradient998"
-       cx="924.34021"
-       cy="-1850.4061"
-       fx="924.34021"
-       fy="-1850.4061"
-       r="371.83176"
-       gradientTransform="matrix(1.268623,0.01736673,-0.01674073,1.2227219,-229.6427,398.06219)"
-       gradientUnits="userSpaceOnUse" />
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath18">
@@ -74,21 +51,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.12449697"
-     inkscape:cx="1074.4537"
-     inkscape:cy="-3058.308"
+     inkscape:zoom="0.256775"
+     inkscape:cx="944.50453"
+     inkscape:cy="3182.0014"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1213"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:snap-text-baseline="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1029"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="26"
      inkscape:window-maximized="1"
      inkscape:snap-global="true"
      showguides="true"
@@ -170,27 +147,17 @@
       <rect
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/raghu/work/opensource/erpnext/ERPNext/ERP-NEXT-CONF-2017/png/01.png"
+         inkscape:export-filename="/home/raghu/Desktop/ERPNext2017.png"
          y="-2381.0676"
          x="30.539482"
          height="1080"
          width="1920"
          id="rect6355"
          style="fill:#212121;fill-opacity:1" />
-      <ellipse
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/raghu/work/opensource/erpnext/ERPNext/ERP-NEXT-CONF-2017/png/01.png"
-         ry="507.58945"
-         rx="521.26459"
-         cy="-1824.2437"
-         cx="991.42853"
-         id="path988"
-         style="opacity:1;vector-effect:none;fill:url(#radialGradient998);fill-opacity:1;stroke:none;stroke-width:1.49515772;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/raghu/work/opensource/erpnext/ERPNext/ERP-NEXT-CONF-2017/png/01.png"
+         inkscape:export-filename="/home/raghu/Desktop/ERPNext2017.png"
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
          id="path1367"
@@ -199,7 +166,7 @@
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/raghu/work/opensource/erpnext/ERPNext/ERP-NEXT-CONF-2017/png/01.png"
+         inkscape:export-filename="/home/raghu/Desktop/ERPNext2017.png"
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"
          id="path1369"
@@ -208,7 +175,7 @@
       <g
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/raghu/work/opensource/erpnext/ERPNext/ERP-NEXT-CONF-2017/png/01.png"
+         inkscape:export-filename="/home/raghu/Desktop/ERPNext2017.png"
          transform="translate(-2058.3789,-3629.3906)"
          id="g6357">
         <g
@@ -397,43 +364,44 @@
              inkscape:connector-curvature="0"
              id="path5248"
              style="fill:#e0e7ee;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             d="m 3155.9539,1714.0719 c -5.1486,-3.4424 -24.5537,-5.193 -42.0544,-4.1539 -38.8826,1.65 -99.478,-16.0682 -125.5893,-6.4165 -18.6745,6.2141 -29.3703,26.3926 -29.3703,26.3926 -5.6473,-0.4882 -84.8472,30.1138 -41.8613,49.1592 43.4571,17.2442 91.0128,10.4451 119.2953,-3.3509 19.1125,-3.6517 73.4649,-6.4377 113.0905,-50.8081 3.1861,-3.5676 6.2699,-5.6755 6.4895,-10.8228 z"
+             d="m 3155.9539,1714.0719 c -5.1486,-3.4424 -24.5537,-5.193 -42.0544,-4.1539 -38.8826,1.65 -99.478,-16.0682 -125.5893,-6.4165 -18.6745,6.2141 -31.1958,26.1644 -31.1958,26.1644 -7.4729,-1.1728 -86.6728,28.2883 -40.7204,50.072 43.4571,17.2442 91.6974,9.7605 119.9799,-4.0355 19.1125,-3.6517 73.4649,-6.4377 113.0905,-50.8081 3.1861,-3.5676 6.2699,-5.6755 6.4895,-10.8228 z"
              sodipodi:nodetypes="ccccccscc" />
           <path
              sodipodi:nodetypes="ccccc"
              inkscape:connector-curvature="0"
              id="path5250"
-             style="fill:#2c374c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="fill:#212121;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 3062.7008,1737.5734 -4.1384,-22.1821 -18.5912,-2.5244 9.1469,26.9803 z" />
           <path
              sodipodi:nodetypes="ccccc"
              inkscape:connector-curvature="0"
              id="path5252"
-             style="fill:#2c374c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="fill:#212121;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 3081.197,1732.8544 -1.8617,-15.5005 -12.7753,-1.116 7.0833,19.2364 z" />
           <path
              sodipodi:nodetypes="ccccc"
              inkscape:connector-curvature="0"
              id="path5254"
-             style="fill:#2c374c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="fill:#212121;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 3096.7827,1730.2371 -0.9881,-10.9793 -9.9121,-1.0973 5.31,13.7565 z" />
           <path
              inkscape:connector-curvature="0"
              id="path5256"
-             style="fill:#2c374c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="fill:#212121;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 3034.2603,1741.4435 -6.2135,-26.6155 -2.6354,27.6235 z"
              sodipodi:nodetypes="cccc" />
           <path
              inkscape:connector-curvature="0"
              id="path5258"
-             style="fill:#2c374c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             style="fill:#212121;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 3019.1217,1740.4121 c -16.3276,-4.8225 -35.1039,-12.5963 -58.6348,-13.367 2.7518,-4.8633 9.6524,-11.9067 18.5183,-19.2315 19.0651,-0.2268 31.7969,1.8432 43.6468,4.7731"
              sodipodi:nodetypes="cccc" />
           <path
              inkscape:connector-curvature="0"
              id="path5260"
              style="fill:#e0e7ee;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             d="m 2928.9153,1777.8126 c 0,0 9.1966,-6.8978 -1.8401,-13.7964 -11.0365,-6.8981 -22.5332,2.3003 -20.6933,11.9568 1.8392,9.6571 22.5334,1.8396 22.5334,1.8396" />
+             d="m 2928.9153,1777.8126 c 0,0 9.1966,-6.8978 -1.8401,-13.7964 -11.0365,-6.8981 -22.7614,0.9312 -20.9215,10.5877 1.8392,9.6571 22.7616,3.2087 22.7616,3.2087"
+             sodipodi:nodetypes="cccc" />
           <path
              style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 2937.6073,1730.6443 c -25.4322,-8.454 -50.7081,-17.3864 -75.7799,-26.8578 -3.2722,0.3506 -10.4297,0.5642 -15.156,1.0504 -5.3435,0.6935 -9.1207,0.7679 -13.9931,3.2562 l 72.489,38.9687 c 9.9879,-8.1146 20.9513,-13.0262 32.44,-16.4175 z m 5.071,0.1738 c -15.2124,6.3038 -25.5655,10.0498 -38.2764,21.077 -21.2244,-11.5801 -42.7687,-25.4534 -64.1302,-36.7891 -3.3829,-1.901 -6.9029,-3.58 -10.2117,-5.6002 -2.9258,-4.3215 5.5672,-4.8405 8.1598,-5.4971 8.0542,-1.2712 16.2534,-1.9521 24.3647,-2.2904 25.4128,9.1182 55.1061,18.9361 80.0938,29.0998 z"
@@ -515,7 +483,7 @@
          sodipodi:nodetypes="ccccc"
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/raghu/work/opensource/erpnext/ERPNext/ERP-NEXT-CONF-2017/png/01.png"
+         inkscape:export-filename="/home/raghu/Desktop/ERPNext2017.png"
          inkscape:connector-curvature="0"
          id="path6494"
          d="m 866.88952,-1900.772 -66.22467,-21.0374 -19.1929,1.0102 64.79783,36.9693 c 4.20634,-5.6652 10.9412,-12.189 20.61974,-16.9421 z"
@@ -524,7 +492,7 @@
          sodipodi:nodetypes="ccccc"
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/raghu/work/opensource/erpnext/ERPNext/ERP-NEXT-CONF-2017/png/01.png"
+         inkscape:export-filename="/home/raghu/Desktop/ERPNext2017.png"
          inkscape:connector-curvature="0"
          id="path6496"
          d="m 1040.1626,-1865.9103 c -26.2564,10.7919 -39.292,12.2 -56.14124,16.0943 l 206.37924,6.5166 11.6074,-8.7014 z"
@@ -532,7 +500,7 @@
       <text
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/raghu/work/opensource/erpnext/ERPNext/ERP-NEXT-CONF-2017/png/01.png"
+         inkscape:export-filename="/home/raghu/Desktop/ERPNext2017.png"
          transform="scale(0.99359518,1.0064461)"
          id="text1374"
          y="-1661.1259"
@@ -547,7 +515,7 @@
       <rect
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/raghu/work/opensource/erpnext/ERPNext/ERP-NEXT-CONF-2017/png/01.png"
+         inkscape:export-filename="/home/raghu/Desktop/ERPNext2017.png"
          ry="1.5645916"
          y="-1678.257"
          x="785.40289"
@@ -558,7 +526,7 @@
       <rect
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/raghu/work/opensource/erpnext/ERPNext/ERP-NEXT-CONF-2017/png/01.png"
+         inkscape:export-filename="/home/raghu/Desktop/ERPNext2017.png"
          style="opacity:1;vector-effect:none;fill:#858890;fill-opacity:1;stroke:none;stroke-width:1.875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect1378"
          width="97.351555"
@@ -570,7 +538,7 @@
          style="fill:#cccccc"
          transform="matrix(0.09981273,0,0,0.09981273,1141.8715,-1788.8719)"
          id="g1388"
-         inkscape:export-filename="/home/raghu/work/opensource/erpnext/ERPNext/ERP-NEXT-CONF-2017/png/01.png"
+         inkscape:export-filename="/home/raghu/Desktop/ERPNext2017.png"
          inkscape:export-xdpi="90"
          inkscape:export-ydpi="90">
         <path
