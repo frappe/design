@@ -1,5 +1,5 @@
  
-# Frappé Design  
+# Frappe Design  
 
 Frappé Design is a collective repository for the design components of frappé erpnext & and related technologies. The design team works on the visual language and user experience of Frappe and ERPNext. 
 
