@@ -1,0 +1,359 @@
+/* reset
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*reset*/
+
+/*fonts*/
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ek Mukta';
+    src: url('../fonts/EkMukta-Medium.woff2') format('woff2'),
+        url('../fonts/EkMukta-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ek Mukta';
+    src: url('../fonts/EkMukta-Bold.woff2') format('woff2'),
+        url('../fonts/EkMukta-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ek Mukta';
+    src: url('../fonts/EkMukta-Regular.woff2') format('woff2'),
+        url('../fonts/EkMukta-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* fonts */
+
+
+body {
+    font: normal 1em / 2 'Rubik', sans-serif;
+    color: #a6a6a6;
+    /*gradient gives problem in firefox*/
+    background: radial-gradient(circle closest-side, #15191e, #060809);
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    background-color: #15191e;
+}
+
+
+.home{
+    text-align: center;
+    margin: 30% auto;
+}
+
+.about, .rules{
+    justify-content: space-between;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about{
+     margin: 60% auto 15%;
+}
+
+.rules{
+     margin: 5% auto;
+}
+.devanagari{
+    font-family: 'Ek-Mukta';
+    font-weight: normal;
+}
+#logo-text
+{
+    padding-top:1em;
+}
+
+/*links*/
+.primary-links{
+    font-size:1.5em;
+    color: #fff;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+
+.primary-links:hover{
+    text-decoration:underline;
+}
+.link-arrow{
+    padding-left:.5em;
+    width:.75em;
+}
+
+.secondary-links{
+    color: #fff;
+    text-transform:uppercase;
+    text-decoration:none;
+}
+.secondary-links:hover{
+    text-decoration:underline;
+}
+
+.tertiary-links, .details{
+    color: #e6e6e6;
+}
+
+.back-arrow{
+     -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        width:1em;
+        padding-left:1em;
+}
+
+/*links*/
+#prize{
+    font-size: 1.25em;
+    color: #ccc;
+    padding-top: 0.5em;
+}
+
+h2 {
+    font-size: 2.25em;
+    font-weight: normal;
+    color: #ccc;
+    line-height: 1;
+    padding-bottom: 1em;
+}
+
+h3{
+    color:#ccc;
+    font-weight:500;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+   
+}
+
+
+.list {
+    list-style: disc;
+    padding: 1em;
+}
+
+.left{
+     margin:0 auto;
+}
+.right {
+    width: 80%;
+    margin:0 auto;
+}
+
+
+.inner-logo{
+max-width:150px;
+
+}
+
+#about-links {
+    display: flex;
+    padding-top: 2em;
+    flex-direction: column;
+}
+
+.events {
+    color: #ccc;
+}
+
+.list li {
+    padding-bottom: 1em;
+}
+
+.winner-list {
+    display: flex;
+    list-style: none;
+    color: #999;
+    padding-bottom: 4em;
+    padding-top: 1em;
+}
+
+.project-img {
+    width: 100%;
+    border-radius: .5em;
+}
+
+.winner-list li {
+    padding-right: 4em;
+    max-width: 200px;
+}
+
+.winner-list a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.winner-list a:hover {
+    color: #fff;
+}
+
+#about-links a {
+    margin-right: 4em;
+    }
+
+
+/*media querry*/
+
+@media screen and (min-width: 1024px){
+.home{
+    margin: 10% auto;
+}
+.about{
+     margin: 25% auto 15%;
+}
+#about-links, .about, .rules{
+    flex-direction: row;
+}
+
+.left{
+    margin: 0;
+    width: 20%;
+    }
+.right {
+    width: 65%;
+    margin: 0;
+    }
+}
+
+/*media querry*/
+ 
+::-moz-selection {
+       background-color: #8c8c8c;
+       color: #ccc;
+}
+
+::selection {
+       background-color: #8c8c8c;
+       color: #ccc;
+}
