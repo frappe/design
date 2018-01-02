@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>frappe charts</title>
+    <meta name="description" content="A github inspired zero dependency charts library" />
+    <meta name="keywords" content=""/>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="canonical" href="" />
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="project-intro">
+            <div class="project-name">
+              <img class="project-logo" src="img/logo.svg">
+              <h1 class="project-title">Frappe Charts</h1>
+             </div>
+            <p>GitHub-inspired simple and modern charts for the web with zero dependencies</p>
+        </section>
+        <section class="project-demo later">
+            <div id="chart-composite-1" class="border"><svg height=225></svg></div>
+            <p class="caption">Click or use arrow keys to navigate data points</p>
+        </section>
+        <section class="project-demo later">
+            <div id="chart-composite-2" class="border"><svg height=225></svg></div>
+        </section>
+        <section class="project-info">
+            <h2 class="sub-title">Creating a chart</h2>
+            <p>Install</p>
+            <pre><code class="code-block bash">npm install frappe-charts</code></pre>   
+            <p>And include it in your project</p>
+            <pre><code class="code-block">import Chart from "frappe-charts/dist/frappe-charts.min.esm"</code></pre>
+            <p>... or include it directly in your HTML</p>
+            <pre><code class="code-block">&lt;script src="https://unpkg.com/frappe-charts@0.0.8/dist/frappe-charts.min.iife.js"&gt;&lt;/script&gt;</code></pre>
+            <p>Make a new Chart</p>
+            <pre><code class="code-block html">  &lt!--HTML--&gt;
+  &lt;div id="chart"&gt;&lt;/div&gt;</code></pre>
+            <pre><code class="code-block javascript">  // Javascript
+  let data = {
+    labels: ["12am-3am", "3am-6am", "6am-9am", "9am-12pm",
+      "12pm-3pm", "3pm-6pm", "6pm-9pm", "9pm-12am"],
+
+    datasets: [
+      {
+        title: "Some Data",
+        values: [25, 40, 30, 35, 8, 52, 17, -4]
+      },
+      {
+        title: "Another Set",
+        values: [25, 50, -10, 15, 18, 32, 27, 14]
+      },
+      {
+        title: "Yet Another",
+        values: [15, 20, -3, -15, 58, 12, -17, 37]
+      }
+    ]
+  };
+
+  let chart = new Chart({
+    parent: "#chart", // or a DOM element
+    title: "My Awesome Chart",
+    data: data,
+    type: 'bar', // or 'line', 'scatter', 'pie', 'percentage'
+    height: 250,
+
+    colors: ['#7cd6fd', 'violet', 'blue'],
+    // hex-codes or these preset colors;
+    // defaults (in order):
+    // ['light-blue', 'blue', 'violet', 'red',
+    // 'orange', 'yellow', 'green', 'light-green',
+    // 'purple', 'magenta', 'grey', 'dark-grey']
+
+    format_tooltip_x: d => (d + '').toUpperCase(),
+    format_tooltip_y: d => d + ' pts'
+  });</code></pre>     
+            <div id="chart-types" class="border"></div>
+            <div class="chart-type-buttons" role="group">
+                <button type="button" class="btn active" data-type='bar'>Bar Chart</button>
+                <button type="button" class="btn" data-type='line'>Line Chart</button>
+                <button type="button" class="btn" data-type='scatter'>Scatter Chart</button>
+                <button type="button" class="btn" data-type='pie'>Pie Chart</button>
+                <button type="button" class="btn" data-type='percentage'>Percentage Chart</button>
+            </div>
+            <p class="note">
+                <a class="links" target="_blank" href="http://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts">Why Percentage?</a>
+            </p>
+        </section>
+        <section class="project-info">
+            <h2 class="sub-title">Update values</h2>
+            <pre><code class="code-block javascript">  // Update entire datasets
+  chart.update_values(
+    [
+      {values: new_dataset_1_values},
+      {values: new_dataset_2_values}
+    ],
+    new_labels
+  );
+
+  // Add a new data point
+  chart.add_data_point(
+    [new_value_1, new_value_2],
+    new_label,
+    index // defaults to last index
+  );
+
+  // Remove a data point
+  chart.remove_data_point(index);</code></pre>
+            <div id="chart-update" class="border"></div>
+                <div class="chart-update-buttons" role="group">
+                <button type="button" class="btn" data-update="random">Random Data</button>
+                <button type="button" class="btn" data-update="add">Add Value</button>
+                <button type="button" class="btn" data-update="remove">Remove Value</button>
+            </div>
+            <pre><code class="code-block javascript">  ...
+    // Include specific Y values in input data to be displayed as lines
+    // (before passing data to a new chart):
+
+    data.specific_values = [
+      {
+        title: "Altitude",
+        line_type: "dashed", // or "solid"
+        value: 38
+      }
+    ]
+  ...</code></pre>
+        </section>
+        <section class="project-info">
+          <h2 class="sub-title">Plot trends</h2>
+          <pre><code class="code-block javascript">  ...
+    x_axis_mode: 'tick',  // for short label ticks
+                          // or 'span' for long spanning vertical axis lines
+    y_axis_mode: 'span',  // for long horizontal lines, or 'tick'
+    is_series: 1,         // to allow for skipping of X values
+  ...</code></pre>
+              <div id="chart-trends" class="border"></div>
+              <div class="chart-plot-buttons" role="group">
+                <button type="button" class="btn" data-type="line">Line</button>
+                <button type="button" class="btn active" data-type="heatline">HeatLine</button>
+                <button type="button" class="btn" data-type="region">Region</button>
+              </div>
+              <pre><code class="code-block javascript">  ...
+    type: 'line',   // Line Chart specific properties:
+
+    show_dots: 0,   // Show data points on the line; default 1
+    heatline: 1,    // Show a value-wise line gradient; default 0
+    region_fill: 1, // Fill the area under the graph; default 0
+  ...</code></pre>
+  </section>
+        <section class="project-info">
+            <h2 class="sub-title">Listen to state change</h2>
+        <div class="columned">
+            <div class="left-col">
+                <div id="chart-events" class="border"></div>
+            </div>
+            <div class="right-col">
+                <div class="chart-events-data data-container">
+                <div class="image-container">
+                    <img class="moon-image" src="./img/europa.jpg">
+                </div>
+             <div class="data">
+               <p class="moon-name">Europa</p>
+               <p>Semi-major-axis: <span class="semi-major-axis">671034</span> km</p>
+               <p>Mass: <span class="mass">4800000</span>  x 10^16 kg</p>
+               <p>Diameter: <span class="diameter">3121.6</span> km</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        </section>
+        <section class="project-info">
+    <h2 class="sub-title">Simple Aggregations</h2>
+    <div id="chart-aggr" class="border"></div>
+              <div class="chart-aggr-buttons mt-1 mx-auto" role="group">
+                <button type="button" class="btn" data-aggregation="sums">Show Sums</button>
+                <button type="button" class="btn" data-aggregation="average">Show Averages</button>
+              </div>
+              <pre><code class="code-block javascript">  chart.show_sums();  // and `hide_sums()`
+
+  chart.show_averages();  // and `hide_averages()`</code></pre>
+    </section>
+        <section class="project-info">
+      <h2 class="sub-title">And a Month-wise Heatmap</h2>
+             <div id="chart-heatmap" class="border" style="overflow: scroll; text-align: center; padding: 20px;"></div>
+              <div class="heatmap-mode-buttons" role="group">
+                <button type="button" class="btn active" data-mode="discrete">Discrete</button>
+                <button type="button" class="btn" data-mode="continuous">Continuous</button>
+              </div>
+              <div class="heatmap-color-button" role="group">
+                <button type="button" class="btn" data-color="default">Default green</button>
+                <button type="button" class="btn" data-color="halloween">GitHub's Halloween</button>
+              </div>
+              <pre><code class="code-block javascript">  let heatmap = new Chart({
+    parent: "#heatmap",
+    type: 'heatmap',
+    height: 115,
+    data: heatmap_data,  // object with date/timestamp-value pairs
+
+    discrete_domains: 1  // default: 0
+
+    start: start_date,
+                  // A Date object;
+                  // default: today's date in past year
+                  //          for an annual heatmap
+
+    legend_colors: ['#ebedf0', '#fdf436', '#ffc700', '#ff9100', '#06001c'],
+                  // Set of five incremental colors,
+                  // beginning with a low-saturation color for zero data;
+                  // default: ['#ebedf0', '#c6e48b', '#7bc96f', '#239a3b', '#196127']
+
+  });</code></pre>
+  </section>
+        <section class="project-info">
+    <a class="links" href="https://github.com/frappe/charts/archive/master.zip"><button class="action-button">Download</button></a>
+                <p><a class="links" href="https://github.com/frappe/charts" target="_blank">View on GitHub</a></p>
+                <p><iframe src="https://ghbtns.com/github-btn.html?user=frappe&repo=charts&type=star&count=true" frameborder="0" scrolling="0" width="94px" height="20px"></iframe></p>
+                <p>License: MIT</p>
+   </section>
+        <section class="project-footer">
+    <p>Project maintained by <a class="links" href="https://frappe.io" target="_blank">Frappe</a>. Used in <a class="links" href="https://erpnext.com" target="_blank">ERPNext</a>.
+          Read the <a class="links" href="https://medium.com/@pratu16x7/so-we-decided-to-create-our-own-charts-a95cb5032c97" target="_blank">blog post</a>.
+    </p>
+    <p>Data from the <a class="links" href="https://www.amsmeteors.org" target="_blank">American Meteor Society</a>,
+          <a class="links" href="http://www.sidc.be/silso" target="_blank">SILSO</a> and
+          <a class="links" href="https://api.nasa.gov/index.html" target="_blank">NASA Open APIs</a>
+     </p>
+     </section>
+    </div>
+    <script src="js/frappe-charts.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
