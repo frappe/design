@@ -1,7 +1,11 @@
-@import  "reset.css";
+@import "reset.css";
 
-* + * {
-  margin-top: 1em;
+
+html{
+    box-sizing: border-box;
+}
+.chart-container > * {
+    /* color:#fff !important; */
 }
 
 body {
@@ -15,104 +19,131 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
     text-rendering: optimizeLegibility;
-    font-size: 1em;
-    line-height: 2;
-    }
-
-
-.wrapper {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2em;
+    line-height:2;
+    font-size:16px;
 }
+
+.intro {
+}
+
+.intro-copy {font-size: 1.5em;margin: 0;}
 
 .project-title {
     font-size: 3em;
-}
-
-
-.border {
-    border: solid 1px #EBEFF2;
-    border-radius: .25em;
-}
-
-.project-demo {
-    margin: 1em 0;
-}
-
-.caption {
-    font-size: .75em;
-    color: gray;
-    text-align: center;
-    padding-top: 1em;
-}
-
-.sub-title {
-    font-size: 1.25em;
-    padding-bottom: 1em;
-}
-
-.code-block {
-    background-color: #fafbfc;
-    padding: 1em;
-    border-radius: .25em;
-    display: block;
-    margin: 1em 0;
-}
-
-.btn {
-    border-radius: .25em;
-    border: solid 1px #d3d7da;
-    padding: .5em;
-    background-color: #eef2f5;
-    cursor: pointer;
-}
-
-.project-name {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: 0;
 }
 
 .project-logo {
-    width: 40px;
-    height: auto;
-    padding-right: 1em;
+    min-width: 150px;
 }
 
-.project-intro {text-align: center;margin-bottom: 3em;}
-
-.links {
-    text-decoration: none;
-    color: #5E64FF;
+.feature {
+    padding: 12% 0;
 }
 
-.note {
-    padding: 1em 0;
+.button-primary{
+    font-size:1.25em;
+    color: #fff;
+    background: #7575ff;
+    border: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
 }
 
-.left-col {width: 65%;}
-
-
-
-.right-col {
+.button-primary:hover{
+  background: #5b5be5;
 }
+
+
+.button{
+    padding: .5em 1.5em;
+    border-radius:.25em;
+    cursor: pointer;
+ 
+}
+
+.spacing {
+    margin: 1em;
+}
+
+.ghstars {
+    margin-top: 1em;
+}
+
+
+.wrapper {
+    text-align: center;
+    background: linear-gradient(180deg, white 18%, #6780fe 25%, #3348ab 40%, #1c2865 60%, #03071b 90%);
+}
+
+.subtitle {
+    font-size: 2em;
+    max-width: 625px;
+    margin: 0 auto 2em auto;
+}
+
+.button-secondary {
+    padding: .75em 1.25em;
+    background: rgba(255, 255, 255, 0.09);
+    border: 2px solid rgba(255, 255, 255, 0.38);
+    color: #fff;
+}
+
+.button-secondary:hover{
+    background-color:#fff;
+   color: #36414c;
+}
+
+.feature-color1 {/* background-color: #6780fe; */color: #fff;}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.feature-color2 {/* background-color: #3348ab; */color: #fff;}
 
 .columned {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
+.left-column {
+    width: 75%;
+}
+
+.right-column {
+    width: 50%;
+}
 
 .moon-name {
     font-weight: bold;
+    margin: 0;
 }
 
-.data {
-    font-size: .85em;
+.data p {
+    margin: 0;
 }
 
-.project-info {
-    margin: 3em 0;
+.moon-image {
+    max-width: 200px;
+}
+
+.feature-color3 {
+    /* background-color: #1c2865; */
+    color: #fff !important;
+}
+
+.footer {
+    padding: 12% 0;
+}
+
+.footer-color {
+    /* background-color: #121940; */
+    color: #fff;
+}
+
+.links {
+    text-decoration: none;
+    color: #5E64FF;
 }
