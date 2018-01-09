@@ -23,7 +23,7 @@ let plot_chart_args = {
 	data: trends_data,
 	type: 'line',
 	height: 250,
-	colors: ['blue'],
+	colors: ['lightgreen'],
 	is_series: 1,
 	show_dots: 0,
 	heatline: 1,
@@ -100,7 +100,7 @@ let update_chart = new Chart({
 	data: update_data,
 	type: 'line',
 	height: 250,
-	colors: ['red'],
+	colors: ['lightgreen'],
 	is_series: 1,
 	region_fill: 1
 });
@@ -175,7 +175,7 @@ let events_chart = new Chart({
 	data: events_data,
 	type: 'bar',
 	height: 250,
-	colors: ['grey'],
+	colors: ['#6780fe'],
 	is_navigable: 1,
 });
 

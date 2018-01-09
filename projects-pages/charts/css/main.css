@@ -5,7 +5,13 @@ html{
     box-sizing: border-box;
 }
 .chart-container > * {
-    /* color:#fff !important; */
+    color:#fff !important;
+}
+.chart-container .axis line, .chart-container .chart-label line{
+    stroke: #ffffff61 !important;
+}
+.chart-container .axis, .chart-container .chart-label{
+    fill: #ffffffbd !important;
 }
 
 body {
@@ -23,10 +29,17 @@ body {
     font-size:16px;
 }
 
-.intro {
+.wrapper {
+    text-align: center;
+    /* background: linear-gradient(180deg, white 14%, #58acc5 22%, #6780fe 35%, #3348ab 45%, #1c2865 60%, #03071b 90%); */
 }
 
-.intro-copy {font-size: 1.5em;margin: 0;}
+.border{
+    border: 1px solid #fff5;
+    border-radius:.25em;
+}
+
+.intro-copy {font-size: 1.5em;margin: 0 auto;max-width: 600px;}
 
 .project-title {
     font-size: 3em;
@@ -38,7 +51,7 @@ body {
 }
 
 .feature {
-    padding: 12% 0;
+    padding: 8% 0;
 }
 
 .button-primary{
@@ -55,14 +68,13 @@ body {
 
 
 .button{
-    padding: .5em 1.5em;
+    padding: .65em 2.5em;
     border-radius:.25em;
     cursor: pointer;
- 
 }
 
 .spacing {
-    margin: 1em;
+    margin: 1.5em;
 }
 
 .ghstars {
@@ -70,10 +82,7 @@ body {
 }
 
 
-.wrapper {
-    text-align: center;
-    background: linear-gradient(180deg, white 18%, #6780fe 25%, #3348ab 40%, #1c2865 60%, #03071b 90%);
-}
+
 
 .subtitle {
     font-size: 2em;
@@ -83,25 +92,31 @@ body {
 
 .button-secondary {
     padding: .75em 1.25em;
-    background: rgba(255, 255, 255, 0.09);
-    border: 2px solid rgba(255, 255, 255, 0.38);
+    background: rgba(255, 255, 255, 0.20);
+    border: 0px;
     color: #fff;
 }
 
 .button-secondary:hover{
-    background-color:#fff;
+   background: rgba(255, 255, 255, 0.70);
    color: #36414c;
 }
 
-.feature-color1 {/* background-color: #6780fe; */color: #fff;}
+.feature-color1 {
+    background-color: #5870ec;
+    color: #fff;
+}
 
 .container {
-    max-width: 1400px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 1em;
 }
 
-.feature-color2 {/* background-color: #3348ab; */color: #fff;}
+.feature-color2 {
+    background-color: #4657b9;
+    color: #fff;
+}
 
 .columned {
     display: flex;
@@ -130,20 +145,64 @@ body {
 }
 
 .feature-color3 {
-    /* background-color: #1c2865; */
+    background-color: #1c2b7d;
     color: #fff !important;
 }
 
 .footer {
-    padding: 12% 0;
+    padding: 5% 0;
 }
 
 .footer-color {
-    /* background-color: #121940; */
-    color: #fff;
+
+    color: gray;
 }
 
 .links {
     text-decoration: none;
     color: #5E64FF;
 }
+
+.install {
+    color: #fff;
+    background-color: #141d50;
+    background-size: 2.75em 2.75em;
+    background-image: linear-gradient(to right, #1d2b7d 1px, transparent 1px), linear-gradient(to bottom, #1d2b7d 1px, transparent 1px);
+}
+
+.terminal {
+    padding: 2em;
+    background-color: #000;
+    border-radius: .25em;
+    width: 30%;
+    margin: 0 auto;
+    color: lightgray;
+    margin-bottom: 2em;
+    }
+
+.chart-plot-buttons, .chart-update-buttons {}
+
+.divider-img {
+    width: 100%;
+    /* display: none; */
+}
+
+
+.caption {
+    font-size: .75em;
+    color: lightgray;
+}
+
+.description {
+    margin: 0 auto;
+    background-color: #c3f1ff;
+    background-size: 75px 75px;
+    background-image: linear-gradient(to right, #ffffff54 1px, transparent 1px), linear-gradient(to bottom, #ffffff38 1px, transparent 1px);
+}
+
+
+
+.active {
+    background-color: rgba(255, 255, 255, 0.50);
+    color: #000; 
+    }
