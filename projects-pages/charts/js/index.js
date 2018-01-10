@@ -23,7 +23,7 @@ let plot_chart_args = {
 	data: trends_data,
 	type: 'line',
 	height: 250,
-	colors: ['lightgreen'],
+	colors: ['blue'],
 	is_series: 1,
 	show_dots: 0,
 	heatline: 1,
@@ -175,7 +175,7 @@ let events_chart = new Chart({
 	data: events_data,
 	type: 'bar',
 	height: 250,
-	colors: ['#6780fe'],
+	colors: ['lightgreen'],
 	is_navigable: 1,
 });
 
@@ -187,7 +187,7 @@ events_chart.parent.addEventListener('data-select', (e) => {
 	data_div.querySelector('.semi-major-axis').innerHTML = distances[e.index] * 1000;
 	data_div.querySelector('.mass').innerHTML = masses[e.index];
 	data_div.querySelector('.diameter').innerHTML = diameters[e.index];
-	data_div.querySelector('img').src = "./img/" + name.toLowerCase() + ".png";
+	data_div.querySelector('img').src = "charts/img/" + name.toLowerCase() + ".png";
 });
 
 // Helpers

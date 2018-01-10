@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-IN">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +7,14 @@
     <title>frappe charts</title>
     <meta name="description" content="A github inspired zero dependency charts library" />
     <meta name="keywords" content=""/>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="charts/css/main.css">
     <link rel="canonical" href="" />
     <link rel="shortcut icon" href="img/favicon.ico">
 </head>
 <body>
     <div class="wrapper">
-        <section class="feature intro">
-                <img class="project-logo" src="img/logo.svg">
+        <section class="feature intro hide">
+                <img class="project-logo" src="charts/img/logo.svg">
                 <h1 class="project-title">Frappe Charts</h1>
                 <p class="intro-copy">GitHub-inspired simple and modern charts<br>for the web with zero dependencies</p>
                 <a href="get-started.html"><button class="button-primary button spacing">Get Started</button></a>
@@ -22,46 +22,39 @@
                     <a class="github-button" href="https://github.com/frappe/charts" data-size="large" data-show-count="true" aria-label="Star frappe/charts on GitHub">Star</a>
                 </div>
         </section>
-        <section class="feature description">
-            <p class="intro-copy">
-            Frappe Charts is an opensource<br>charting library for your data written in vanilla javascript.
-            Built without any dependency to be lightweight, almost 15kb when zipped. It is responsive out of the box ready for the evolving modern web.
-            It is based on svg and supports animations and is interactive too. 
-            </p>
-        </section>
-        <section class="feature feature-color1">
+        <section class="feature feature-color1 hide">
             <div class="container">
-                <p class="subtitle">Update your data on the fly</p>
-                <div id="chart-update" class="border"></div>
+                <p class="subtitle">Dynamic</p>
+                <div id="chart-update" class="box"></div>
                 <div class="chart-update-buttons" role="group">
-                        <button type="button" class="button button-secondary spacing" data-update="random">Random Data</button>
-                        <button type="button" class="button button-secondary spacing" data-update="add">Add Value</button>
-                        <button type="button" class="button button-secondary spacing" data-update="remove">Remove Value</button>
+                        <button type="button" class="button button-secondary" data-update="random">Random Data</button>
+                        <button type="button" class="button button-secondary" data-update="add">Add Value</button>
+                        <button type="button" class="button button-secondary" data-update="remove">Remove Value</button>
                 </div>
             </div>
         </section>
-        <section class="feature feature-color2">
+        <section class="feature feature-color2 hide">
             <div class="container">
-              <p class="subtitle">Plot trends on large datasets easily</p>
-              <div id="chart-trends" class="border"></div>
+              <p class="subtitle">Trends</p>
+              <div id="chart-trends" class="box"></div>
               <div class="chart-plot-buttons" role="group">
-                <button type="button" class="button button-secondary spacing" data-type="line">Line</button>
-                <button type="button" class="button button-secondary spacing active" data-type="heatline">HeatLine</button>
-                <button type="button" class="button button-secondary spacing" data-type="region">Region</button>
+                <button type="button" class="button button-secondary" data-type="line">Line</button>
+                <button type="button" class="button button-secondary active" data-type="heatline">HeatLine</button>
+                <button type="button" class="button button-secondary" data-type="region">Region</button>
               </div>
             </div>
         </section>
-        <section class="feature feature-color3">
+        <section class="feature feature-color1 hide">
             <div class="container">
-                <p class="subtitle">Override events to change page content based on chart data.</p>
-                <div class="columned border">
+                <p class="subtitle">Interactive</p>
+                <div class="columned box">
                     <div class="left-column">
                         <div id="chart-events"></div>
                     </div>
                     <div class="right-column">
                         <div class="chart-events-data data-container">
                             <div class="image-container">
-                                <img class="moon-image" src="./img/europa.png">
+                                <img class="moon-image" src="charts/img/europa.png">
                              </div>
                             <div class="data">
                                 <p class="moon-name">Europa</p>
@@ -72,25 +65,69 @@
                         </div>
                     </div>
                 </div>
-                  <p class="caption">Click or use arrow keys to navigate data points</p>
+                  <p class="caption">Click on the bars or use arrow keys to navigate data points</p>
             </div>
         </section>
-        <section class="feature install feature-color4 ">
+        <section class="feature install feature-color4 hide">
             <div class="container">
-                <p class="subtitle">Install It Now</p>
+                <p class="subtitle">Usage</p>
+                <p class="body-copy left-align">Install</p>
                 <div class="terminal">
-                    <code class="code">$ <b>npm</b> install <b>frappe-charts</b></code>
-                </div>  
+                <pre><code class="code">$ npm install frappe-charts </code></pre>
+                </div> 
+                <p class="body-copy left-align">Include in project.</p>
+                <div class="terminal">
+                    <pre><code class="code">import Chart from "frappe-charts/dist/frappe-charts.min.esm"</code></pre>
+                </div>
+                <p class="body-copy left-align">Include in html.</p>
+                <div class="terminal">
+                <pre><code class="code"> &lt;script src="https://unpkg.com/frappe-charts@0.0.8/dist/frappe-charts.min.iife.js"&gt;&lt;/script&gt;</code></pre>
+                </div>
+                <p class="body-copy left-align">Javascript</p>
+                <div class="terminal">
+                <pre><code class="code">const data = {
+    labels: ["12am-3am", "3am-6pm", "6am-9am", "9am-12am",
+        "12pm-3pm", "3pm-6pm", "6pm-9pm", "9am-12am"
+    ],
+    datasets: [
+        {
+            title: "Some Data",
+            values: [25, 40, 30, 35, 8, 52, 17, -4]
+        },
+        {
+            title: "Another Set",
+            values: [25, 50, -10, 15, 18, 32, 27, 14]
+        }
+    ]
+}
+
+const chart = new Chart({
+    parent: "#chart", // or a DOM element
+    title: "My Awesome Chart",
+    data: data,
+    type: 'bar', // or 'line', 'scatter', 'pie', 'percentage'
+    height: 250,
+
+    colors: ['#7cd6fd', '#743ee2'],
+
+    format_tooltip_x: d => (d + '').toUpperCase(),
+    format_tooltip_y: d => d + ' pts'
+})</code></pre>
+                </div>
+                
                 <a href="get-started.html"><button class="button-primary button spacing">Explore More</button></a>  
         </section>
-        <section class="footer footer-color">
-            <p>Built by <a class="links" href="https://frappe.io">Frappe</a> and <a class="links" href="https://github.com/frappe/charts/graphs/contributors" target="_blank">community</a>.</p>
+        <section class="footer footer-color hide">
+
+            <p>Built by <a class="links" href="https://frappe.io">Frappe</a>.</p>
             <!--<p>©2018 Frappé Technologies Pvt. Ltd.<br> Content licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" class="links" target="_blank">CC-BY-SA 3.0</a>. Read the <a class="links" href="https://erpnext.com/terms" target="_blank">terms of usea</a>.</p>--> 
-            <p>License: MIT</p>
+            <p class="caption">Data sources from the <a class="links" href="https://www.amsmeteors.org" target="_blank">American Meteor Society</a>,
+          <a class="links" href="http://www.sidc.be/silso" target="_blank">SILSO</a>,<br> <a class="links" href="https://api.nasa.gov/index.html" target="_blank">NASA Open APIs</a> and images from  <a class="links" href="https://commons.wikimedia.org/wiki/File:Galilean_satellites_noborder.jpg" target="_blank">wikimedia commons</a>.</p>
+            <p class="caption">License: MIT</p>
         </section>
     </div>
-    <script src="js/frappe-charts.min.js"></script>
-    <script src="js/index.js"></script>
+    <script src="charts/js/frappe-charts.min.js"></script>
+    <script src="charts/js/index.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>   
 </html>
