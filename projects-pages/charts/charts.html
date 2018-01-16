@@ -7,44 +7,55 @@
     <title>frappe charts</title>
     <meta name="description" content="A github inspired zero dependency charts library" />
     <meta name="keywords" content=""/>
-    <link rel="stylesheet" href="charts/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="canonical" href="" />
     <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/github.css">
 </head>
 <body>
     <div class="wrapper">
-        <section class="feature intro hide">
-                <img class="project-logo" src="charts/img/logo.svg">
+        <section class="feature intro fade-in">
+                <img class="project-logo" src="img/charts-logo.svg">
                 <h1 class="project-title">Frappe Charts</h1>
-                <p class="intro-copy">GitHub-inspired simple and modern charts<br>for the web with zero dependencies</p>
-                <a href="get-started.html"><button class="button-primary button spacing">Get Started</button></a>
+                <p class="intro-copy">GitHub-inspired simple and modern charts for the web with zero dependencies</p>
+                <a href="get-started.html"><button class="button-primary button">Get Started</button></a>
                 <div class="ghstars">
                     <a class="github-button" href="https://github.com/frappe/charts" data-size="large" data-show-count="true" aria-label="Star frappe/charts on GitHub">Star</a>
                 </div>
         </section>
-        <section class="feature feature-color1 hide">
-            <div class="container">
-                <p class="subtitle">Dynamic</p>
-                <div id="chart-update" class="box"></div>
-                <div class="chart-update-buttons" role="group">
-                        <button type="button" class="button button-secondary" data-update="random">Random Data</button>
-                        <button type="button" class="button button-secondary" data-update="add">Add Value</button>
-                        <button type="button" class="button button-secondary" data-update="remove">Remove Value</button>
+        <section class="feature feature-color4 fade-in">
+            <div id="transition" class="container fade-in">
+                <p class="subtitle chart-types">Line Chart</p>
+                <div class="chart-cycle box">
+                    <div class="chart-type "></div>
                 </div>
             </div>
         </section>
-        <section class="feature feature-color2 hide">
+        <section class="feature feature-color1 fade-in">
+            <div class="container">
+                <p class="subtitle">Dynamic</p>
+                <div id="chart-update" class="box"></div>
+                <p class="tiny-text">Source: <a class="links" href="https://www.amsmeteors.org" target="_blank">American Meteor Society</a></p>
+                <div class="chart-update-buttons" role="group">
+                        <button type="button" class="button button-secondary side-spacing " data-update="random">Random Data</button>
+                        <button type="button" class="button button-secondary side-spacing " data-update="add">Add Value</button>
+                        <button type="button" class="button button-secondary side-spacing " data-update="remove">Remove Value</button>
+                </div>
+            </div>
+        </section>
+        <section class="feature feature-color2 fade-in">
             <div class="container">
               <p class="subtitle">Trends</p>
               <div id="chart-trends" class="box"></div>
+              <p class="tiny-text">Source: <a class="links" href="http://www.sidc.be/silso" target="_blank">SILSO</a></p>
               <div class="chart-plot-buttons" role="group">
-                <button type="button" class="button button-secondary" data-type="line">Line</button>
-                <button type="button" class="button button-secondary active" data-type="heatline">HeatLine</button>
-                <button type="button" class="button button-secondary" data-type="region">Region</button>
+                <button type="button" class="button button-secondary side-spacing" data-type="line">Line</button>
+                <button type="button" class="button button-secondary side-spacing active" data-type="heatline">HeatLine</button>
+                <button type="button" class="button button-secondary side-spacing" data-type="region">Region</button>
               </div>
             </div>
         </section>
-        <section class="feature feature-color1 hide">
+        <section class="feature feature-color1 fade-in">
             <div class="container">
                 <p class="subtitle">Interactive</p>
                 <div class="columned box">
@@ -54,7 +65,7 @@
                     <div class="right-column">
                         <div class="chart-events-data data-container">
                             <div class="image-container">
-                                <img class="moon-image" src="charts/img/europa.png">
+                                <img class="moon-image" src="img/europa.jpg">
                              </div>
                             <div class="data">
                                 <p class="moon-name">Europa</p>
@@ -65,27 +76,32 @@
                         </div>
                     </div>
                 </div>
+                <p class="tiny-text">Source: <a class="links" href="https://api.nasa.gov/index.html" target="_blank">NASA Open APIs</a></p>
                   <p class="caption">Click on the bars or use arrow keys to navigate data points</p>
             </div>
         </section>
-        <section class="feature install feature-color4 hide">
+        <section class="feature install feature-color4 fade-in">
+            <div class="container">
+                <p class="subtitle">Install</p>
+                <div class="terminal2">
+                <pre><code class="code sh hljs">$ npm install frappe-charts </code></pre>
+                </div>
+            </div>
+        </section>
+        <section class="feature feature-color1 fade-in">
             <div class="container">
                 <p class="subtitle">Usage</p>
-                <p class="body-copy left-align">Install</p>
-                <div class="terminal">
-                <pre><code class="code">$ npm install frappe-charts </code></pre>
-                </div> 
                 <p class="body-copy left-align">Include in project.</p>
                 <div class="terminal">
-                    <pre><code class="code">import Chart from "frappe-charts/dist/frappe-charts.min.esm"</code></pre>
+                    <pre><code class="code js hljs">import Chart from "frappe-dist/frappe-charts.min.esm"</code></pre>
                 </div>
                 <p class="body-copy left-align">Include in html.</p>
                 <div class="terminal">
-                <pre><code class="code"> &lt;script src="https://unpkg.com/frappe-charts@0.0.8/dist/frappe-charts.min.iife.js"&gt;&lt;/script&gt;</code></pre>
+                <pre ><code class="code html hljs"> &lt;script src="https://unpkg.com/frappe-charts@0.0.8/dist/frappe-charts.min.iife.js"&gt;&lt;/script&gt;</code></pre>
                 </div>
                 <p class="body-copy left-align">Javascript</p>
                 <div class="terminal">
-                <pre><code class="code">const data = {
+                <pre><code class="code js hljs">const data = {
     labels: ["12am-3am", "3am-6pm", "6am-9am", "9am-12am",
         "12pm-3pm", "3pm-6pm", "6pm-9pm", "9am-12am"
     ],
@@ -117,17 +133,16 @@ const chart = new Chart({
                 
                 <a href="get-started.html"><button class="button-primary button spacing">Explore More</button></a>  
         </section>
-        <section class="footer footer-color hide">
+        <section class="footer footer-color fade-in">
 
-            <p>Built by <a class="links" href="https://frappe.io">Frappe</a>.</p>
-            <!--<p>©2018 Frappé Technologies Pvt. Ltd.<br> Content licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" class="links" target="_blank">CC-BY-SA 3.0</a>. Read the <a class="links" href="https://erpnext.com/terms" target="_blank">terms of usea</a>.</p>--> 
-            <p class="caption">Data sources from the <a class="links" href="https://www.amsmeteors.org" target="_blank">American Meteor Society</a>,
-          <a class="links" href="http://www.sidc.be/silso" target="_blank">SILSO</a>,<br> <a class="links" href="https://api.nasa.gov/index.html" target="_blank">NASA Open APIs</a> and images from  <a class="links" href="https://commons.wikimedia.org/wiki/File:Galilean_satellites_noborder.jpg" target="_blank">wikimedia commons</a>.</p>
+            <p>Built By <a class="links" href="https://frappe.io">Frappe</a></p>
             <p class="caption">License: MIT</p>
         </section>
     </div>
-    <script src="charts/js/frappe-charts.min.js"></script>
-    <script src="charts/js/index.js"></script>
+    <script src="js/frappe-charts.min.js"></script>
+    <script src="js/index.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>   
 </html>

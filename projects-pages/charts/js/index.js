@@ -187,7 +187,7 @@ events_chart.parent.addEventListener('data-select', (e) => {
 	data_div.querySelector('.semi-major-axis').innerHTML = distances[e.index] * 1000;
 	data_div.querySelector('.mass').innerHTML = masses[e.index];
 	data_div.querySelector('.diameter').innerHTML = diameters[e.index];
-	data_div.querySelector('img').src = "charts/img/" + name.toLowerCase() + ".png";
+	data_div.querySelector('img').src = "img/" + name.toLowerCase() + ".jpg";
 });
 
 // Helpers
@@ -214,3 +214,62 @@ function shuffle(array) {
 	return array;
 }
 
+  let typeData = {
+    labels: ["12am-3am", "3am-6am", "6am-9am", "9am-12pm",
+      "12pm-3pm", "3pm-6pm", "6pm-9pm", "9pm-12am"],
+
+    datasets: [
+      {
+        title: "Some Data",
+        values: [25, 40, 30, 35, 8, 52, 17, -4]
+      },
+      {
+        title: "Another Set",
+        values: [25, 50, -10, 15, 18, 32, 27, 14]
+      },
+      {
+        title: "Yet Another",
+        values: [15, 20, -3, -15, 58, 12, -17, 37]
+      }
+    ]
+  };
+
+// Demo Chart (bar, linepts, scatter(blobs), percentage)
+// ================================================================================
+
+ let type_chart = new Chart({
+	parent: ".chart-type",
+	data: typeData,
+	type: 'line',
+	height: 250,
+	colors: ['light-blue', 'violet', 'blue'],
+	is_series: 1,
+    format_tooltip_x: d => (d + '').toUpperCase(),
+    format_tooltip_y: d => d + ' pts'
+});
+
+
+let types = ['scatter', 'pie', 'percentage', 'bar', 'line'];
+let typeNames = ['Bar Chart', 'Scatter Chart', 'Pie Chart', 'Percentage Chart', 'Line Chart'];
+
+let currentIndex = 0;
+let titleElement = document.querySelector('.chart-types');
+
+setInterval(() => {
+    document.getElementById("transition").classList.remove("fade-in")
+    let newChart = type_chart.get_different_chart(types[currentIndex]);
+    if(newChart){
+        type_chart = newChart;
+        titleElement.innerHTML = types[currentIndex] + ' chart';
+        document.getElementById("transition").classList.add("fade-in")
+    }
+    currentIndex++;
+    if(currentIndex >= types.length) {
+        currentIndex = 0;
+    }
+    
+}, 3000);
+
+
+
+		
