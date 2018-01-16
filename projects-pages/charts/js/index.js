@@ -250,18 +250,21 @@ function shuffle(array) {
 
 
 let types = ['scatter', 'pie', 'percentage', 'bar', 'line'];
-let typeNames = ['Bar Chart', 'Scatter Chart', 'Pie Chart', 'Percentage Chart', 'Line Chart'];
+let typeNames = ['Scatter Chart', 'Pie Chart', 'Percentage Chart', 'Bar Chart', 'Line Chart'];
 
 let currentIndex = 0;
-let titleElement = document.querySelector('.chart-types');
+let titleElement = document.querySelector('.chart-names');
+let chartElement = document.querySelector('.chart-type');
 
 setInterval(() => {
-    document.getElementById("transition").classList.remove("fade-in")
+	titleElement.classList.remove("fade-chart")
+	chartElement.classList.remove("fade-chart")
     let newChart = type_chart.get_different_chart(types[currentIndex]);
     if(newChart){
         type_chart = newChart;
         titleElement.innerHTML = types[currentIndex] + ' chart';
-        document.getElementById("transition").classList.add("fade-in")
+        titleElement.classList.add("fade-chart")
+		chartElement.classList.add("fade-chart")
     }
     currentIndex++;
     if(currentIndex >= types.length) {

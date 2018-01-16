@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>frappe charts</title>
+    <title>Frappe Charts</title>
     <meta name="description" content="A github inspired zero dependency charts library" />
     <meta name="keywords" content=""/>
     <link rel="stylesheet" href="css/main.css">
@@ -13,29 +13,28 @@
     <link rel="stylesheet" href="css/github.css">
 </head>
 <body>
-    <div class="wrapper">
-        <section class="feature intro fade-in">
+    <div class="wrapper fade-in">
+        <section class="feature intro">
                 <img class="project-logo" src="img/charts-logo.svg">
                 <h1 class="project-title">Frappe Charts</h1>
                 <p class="intro-copy">GitHub-inspired simple and modern charts for the web with zero dependencies</p>
-                <a href="get-started.html"><button class="button-primary button">Get Started</button></a>
+                <a href="charts-getstarted.html"><button class="button-primary button">Get Started</button></a>
                 <div class="ghstars">
                     <a class="github-button" href="https://github.com/frappe/charts" data-size="large" data-show-count="true" aria-label="Star frappe/charts on GitHub">Star</a>
                 </div>
         </section>
-        <section class="feature feature-color4 fade-in">
-            <div id="transition" class="container fade-in">
-                <p class="subtitle chart-types">Line Chart</p>
+        <section class="feature chart-bg-green">
+            <div id="transition" class="container">
+                <p class="subtitle chart-names fade-chart">Line Chart</p>
                 <div class="chart-cycle box">
-                    <div class="chart-type "></div>
+                    <div class="chart-type fade-chart"></div>
                 </div>
             </div>
         </section>
-        <section class="feature feature-color1 fade-in">
+        <section class="feature generic-bg-grey">
             <div class="container">
                 <p class="subtitle">Dynamic</p>
                 <div id="chart-update" class="box"></div>
-                <p class="tiny-text">Source: <a class="links" href="https://www.amsmeteors.org" target="_blank">American Meteor Society</a></p>
                 <div class="chart-update-buttons" role="group">
                         <button type="button" class="button button-secondary side-spacing " data-update="random">Random Data</button>
                         <button type="button" class="button button-secondary side-spacing " data-update="add">Add Value</button>
@@ -43,11 +42,11 @@
                 </div>
             </div>
         </section>
-        <section class="feature feature-color2 fade-in">
+        <section class="feature chart-bg-blue">
             <div class="container">
               <p class="subtitle">Trends</p>
               <div id="chart-trends" class="box"></div>
-              <p class="tiny-text">Source: <a class="links" href="http://www.sidc.be/silso" target="_blank">SILSO</a></p>
+              <p class="source">Source: <a class="links" href="http://www.sidc.be/silso" target="_blank">SILSO</a></p>
               <div class="chart-plot-buttons" role="group">
                 <button type="button" class="button button-secondary side-spacing" data-type="line">Line</button>
                 <button type="button" class="button button-secondary side-spacing active" data-type="heatline">HeatLine</button>
@@ -55,10 +54,10 @@
               </div>
             </div>
         </section>
-        <section class="feature feature-color1 fade-in">
+        <section class="feature generic-bg-grey">
             <div class="container">
                 <p class="subtitle">Interactive</p>
-                <div class="columned box">
+                <div class="two-columned box">
                     <div class="left-column">
                         <div id="chart-events"></div>
                     </div>
@@ -76,11 +75,11 @@
                         </div>
                     </div>
                 </div>
-                <p class="tiny-text">Source: <a class="links" href="https://api.nasa.gov/index.html" target="_blank">NASA Open APIs</a></p>
+                <p class="source">Source: <a class="links" href="https://api.nasa.gov/index.html" target="_blank">NASA Open APIs</a></p>
                   <p class="caption">Click on the bars or use arrow keys to navigate data points</p>
             </div>
         </section>
-        <section class="feature install feature-color4 fade-in">
+        <section class="feature install chart-bg-green">
             <div class="container">
                 <p class="subtitle">Install</p>
                 <div class="terminal2">
@@ -88,7 +87,7 @@
                 </div>
             </div>
         </section>
-        <section class="feature feature-color1 fade-in">
+        <section class="feature generic-bg-grey">
             <div class="container">
                 <p class="subtitle">Usage</p>
                 <p class="body-copy left-align">Include in project.</p>
@@ -130,11 +129,9 @@ const chart = new Chart({
     format_tooltip_y: d => d + ' pts'
 })</code></pre>
                 </div>
-                
-                <a href="get-started.html"><button class="button-primary button spacing">Explore More</button></a>  
+                <a href="charts-getstarted.html"><button class="button-primary button spacing">Explore More</button></a>  
         </section>
         <section class="footer footer-color fade-in">
-
             <p>Built By <a class="links" href="https://frappe.io">Frappe</a></p>
             <p class="caption">License: MIT</p>
         </section>
