@@ -17,37 +17,7 @@
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    sodipodi:docname="erpnext-logo.svg">
   <defs
-     id="defs5265">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath1252-9-3">
-      <g
-         id="g1262-3-3"
-         transform="matrix(0.99999889,0,0,0.99999982,279.19166,438.78261)"
-         style="stroke-width:1.0000006">
-        <g
-           transform="translate(-25.731002,-0.1322636)"
-           id="g1258-7-6"
-           style="stroke-width:1.0000006">
-          <g
-             id="g1256-4-9"
-             transform="translate(-95.250002)"
-             style="stroke-width:1.0000006">
-            <path
-               inkscape:connector-curvature="0"
-               id="path1254-5-0"
-               d="m 1501.1846,130.70348 h 60.8542 c 7.329,0 13.2292,5.9002 13.2292,13.22916 v 60.85419 c 0,7.32896 -5.9002,13.22917 -13.2292,13.22917 h -60.8542 c -7.3289,0 -13.2292,-5.90021 -13.2292,-13.22917 v -60.85419 c 0,-7.32896 5.9003,-13.22916 13.2292,-13.22916 z"
-               style="opacity:1;vector-effect:none;fill:#6d4eff;fill-opacity:1;stroke:none;stroke-width:3.96875286;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-               sodipodi:nodetypes="sssssssss" />
-          </g>
-        </g>
-        <g
-           style="stroke-width:0.98702425"
-           transform="matrix(1.0131472,0,0,1.0131472,-144.01349,-2.2905938)"
-           id="g1260-2-4" />
-      </g>
-    </clipPath>
-  </defs>
+     id="defs5265" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -55,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-310.71426"
-     inkscape:cy="167.85719"
+     inkscape:zoom="0.7"
+     inkscape:cx="-8.3021998"
+     inkscape:cy="181.06016"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -75,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
       </cc:Work>
@@ -131,13 +101,12 @@
            transform="matrix(1.0131472,0,0,1.0131472,-144.01349,-2.2905938)"
            id="g1420-0-4" />
       </g>
-      <circle
-         style="opacity:1;vector-effect:none;fill:#6564f9;fill-opacity:1;stroke:none;stroke-width:3.96875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-         id="circle1424-7-6"
-         cx="1689.8009"
-         cy="738.84955"
-         r="109.16828"
-         clip-path="url(#clipPath1252-9-3)" />
+      <path
+         style="opacity:1;vector-effect:none;fill:#6564f9;fill-opacity:1;stroke:none;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         clip-path="none"
+         d="M 164.92578 228.00977 A 412.60453 412.60453 0 0 0 0 262.94922 L 0 280 C 0 307.70001 22.30022 330 50 330 L 280 330 C 307.69978 330 330 307.70001 330 280 L 330 262.70508 A 412.60453 412.60453 0 0 0 164.92578 228.00977 z "
+         transform="matrix(0.26458333,0,0,0.26458333,1646.1645,569.35379)"
+         id="circle1424-7-6" />
       <g
          id="g1434-8-0"
          transform="translate(2.8144523,0.84784259)"
