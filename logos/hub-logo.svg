@@ -15,7 +15,10 @@
    version="1.1"
    id="svg4635"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="hub-logo.svg">
+   sodipodi:docname="hub-logo.svg"
+   inkscape:export-filename="/home/raghu/Desktop/hub-logo.png"
+   inkscape:export-xdpi="95.878258"
+   inkscape:export-ydpi="95.878258">
   <defs
      id="defs4629" />
   <sodipodi:namedview
@@ -26,14 +29,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="494.99146"
+     inkscape:cx="234.27717"
      inkscape:cy="167.57445"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1029"
+     inkscape:window-height="1149"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1" />
@@ -45,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
       </cc:Work>
@@ -101,10 +104,9 @@
        style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.79375005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#63c923;stroke-width:7.93750048;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="m -99.81698,151.74752 c 5.61362,-5.63026 13.37868,-9.11425 21.95748,-9.11425 8.57516,0 16.33729,3.48103 21.95035,9.10709"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#63c923;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.93750048;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m -77.859375,138.66406 c -9.653316,0 -18.439915,3.93483 -24.767575,10.28125 a 3.9691471,3.9691471 0 1 0 5.621091,5.60352 c 4.899576,-4.9141 11.6422,-7.94727 19.146484,-7.94727 7.501101,0 14.241542,3.03098 19.140625,7.94141 a 3.9691471,3.9691471 0 1 0 5.619141,-5.60547 c -6.327038,-6.34169 -15.110547,-10.27344 -24.759766,-10.27344 z"
        id="path838"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
