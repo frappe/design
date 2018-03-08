@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="430"
+   height="430"
+   viewBox="0 0 113.77084 113.77084"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="manufacturing.svg"
+   inkscape:export-filename="/home/raghu/work/frappe/production/illustrations/icons/manufacturing.png"
+   inkscape:export-xdpi="44.651161"
+   inkscape:export-ydpi="44.651161">
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath928">
+      <rect
+         ry="35.271599"
+         rx="35.271599"
+         y="36.632778"
+         x="79.439369"
+         height="99.156998"
+         width="99.156998"
+         id="rect930"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:none;stroke-width:5.29166698;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath863">
+      <rect
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:none;stroke-width:5.29166698;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="rect866"
+         width="99.157104"
+         height="99.156998"
+         x="21.70915"
+         y="66.834236"
+         rx="35.271599"
+         ry="35.271599"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1016">
+      <path
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:none;stroke-width:5.29166698;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="m -236.921,38.602797 h -24.65136 c -16.83449,0 -30.38719,13.552685 -30.38719,30.387188 v 24.651361 c 0,16.834494 13.5527,30.387184 30.38719,30.387184 h 24.65136 c 16.83451,0 30.38719,-13.55269 30.38719,-30.387184 V 68.989985 c 0,-16.834503 -13.55268,-30.387188 -30.38719,-30.387188 z"
+         id="path1018"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1020">
+      <path
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:none;stroke-width:5.29166698;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="m -74.368778,20.385444 h -30.075052 c -20.53835,0 -37.07284,16.534489 -37.07284,37.072848 v 30.075049 c 0,20.538349 16.53449,37.072849 37.07284,37.072849 h 30.075052 c 20.538359,0 37.072848,-16.5345 37.072848,-37.072849 V 57.458292 c 0,-20.538359 -16.534489,-37.072848 -37.072848,-37.072848 z"
+         id="path1022"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3886">
+      <path
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:none;stroke-width:5.29166698;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="m -67.91716,75.091495 h -9.917561 c -6.772734,0 -12.225157,5.45242 -12.225157,12.225158 v 9.917561 c 0,6.772736 5.452423,12.225156 12.225157,12.225156 h 9.917561 c 6.772738,0 12.225158,-5.45242 12.225158,-12.225156 v -9.917561 c 0,-6.772738 -5.45242,-12.225158 -12.225158,-12.225158 z"
+         id="path3888"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3893">
+      <path
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:none;stroke-width:5.29166698;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="m 114.71097,36.632778 h 28.6138 c 19.54046,0 35.2716,15.731133 35.2716,35.2716 v 28.613802 c 0,19.54046 -15.73114,35.2716 -35.2716,35.2716 h -28.6138 c -19.540468,0 -35.271601,-15.73114 -35.271601,-35.2716 V 71.904378 c 0,-19.540467 15.731133,-35.2716 35.271601,-35.2716 z"
+         id="path3895"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3556">
+      <rect
+         y="299.53384"
+         x="207.14764"
+         height="10.111938"
+         width="13.025642"
+         id="rect3558"
+         style="opacity:1;vector-effect:none;fill:#a84f2e;fill-opacity:1;stroke:none;stroke-width:0.99999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="299.56008"
+     inkscape:cy="189.3882"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1149"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     units="px"
+     inkscape:snap-global="false"
+     showguides="false"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(337.69985,-34.42424)">
+    <rect
+       style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:none;stroke-width:5.29166698;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect902"
+       width="87.3125"
+       height="87.3125"
+       x="-309.00427"
+       y="-172.93738"
+       transform="rotate(-44.033304)"
+       rx="13.229167"
+       ry="13.229167" />
+    <g
+       inkscape:export-ydpi="41.535992"
+       inkscape:export-xdpi="41.535992"
+       transform="matrix(-0.84062811,0.54161275,0.54161275,0.84062811,-428.84548,92.073494)"
+       id="g1921"
+       inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png">
+      <g
+         clip-path="url(#clipPath1016)"
+         style="stroke-width:0.86151993"
+         transform="matrix(1.1607392,0,0,1.1607392,160.29252,-8.1750014)"
+         id="g1919" />
+    </g>
+    <g
+       id="g940"
+       transform="translate(-0.37795997,3.7044064)">
+      <rect
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291687;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="rect1973"
+         width="2.7320769"
+         height="19.578659"
+         x="-281.11057"
+         y="35.758583"
+         rx="2.3623507"
+         ry="1.2284219" />
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path1033"
+         d="m -325.48613,103.86569 h 89.23625"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         inkscape:connector-curvature="0"
+         id="path1047"
+         d="m -300.10298,104.58699 -4.94297,12.29573"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="m -257.38066,104.58699 3.29482,12.29573"
+         id="path1054"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path1056"
+         d="m -284.64054,104.58699 -1.74255,12.29573"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="m -272.97169,104.58699 -0.46983,12.29573"
+         id="path1058"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <g
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         style="stroke-width:1.02010119"
+         transform="matrix(-0.97982757,0,0,0.98076253,-219.24033,-108.84657)"
+         id="g1279">
+        <rect
+           ry="4.6327052"
+           rx="4.6371264"
+           transform="scale(-1,1)"
+           y="202.12459"
+           x="-76.475807"
+           height="22.111607"
+           width="26.836311"
+           id="rect1264"
+           style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.34950888;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+        <g
+           style="stroke-width:1.17950094"
+           transform="matrix(1,0,0,0.7479799,-0.49218448,56.150107)"
+           id="g1275">
+          <path
+             style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.56038141;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+             d="M 71.434287,220.78148 V 205.41349"
+             id="path1267"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path1269"
+             d="M 60.921685,220.78148 V 205.41349"
+             style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.56038141;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+          <path
+             style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.56038141;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+             d="M 66.177986,220.78148 V 205.41349"
+             id="path1271"
+             inkscape:connector-curvature="0" />
+          <path
+             style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.56038141;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+             d="M 55.665385,220.78148 V 205.41349"
+             id="path1273"
+             inkscape:connector-curvature="0" />
+        </g>
+        <rect
+           rx="2.1821766"
+           ry="2.1800957"
+           transform="scale(-1,1)"
+           y="203.66191"
+           x="-73.726639"
+           height="2.9299917"
+           width="21.413914"
+           id="rect1277"
+           style="opacity:1;vector-effect:none;fill:#8d99a6;fill-opacity:1;stroke:none;stroke-width:1.34950888;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      </g>
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         inkscape:connector-curvature="0"
+         id="path1852"
+         d="m -244.2882,104.58699 6.58967,12.29573"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="m -235.46933,104.00747 9.80943,12.87525"
+         id="path1883"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <g
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         style="stroke-width:1.01622558"
+         id="g1262"
+         transform="matrix(-0.9835442,0,0,0.98452306,-185.56314,-109.68565)">
+        <rect
+           style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.34438181;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+           id="rect1247"
+           width="26.836311"
+           height="22.111607"
+           x="-76.475807"
+           y="202.12459"
+           transform="scale(-1,1)"
+           rx="4.6196027"
+           ry="4.6150098" />
+        <g
+           id="g1258"
+           transform="matrix(1,0,0,0.7479799,-0.49218448,56.150107)"
+           style="stroke-width:1.17501974">
+          <path
+             inkscape:connector-curvature="0"
+             id="path1249"
+             d="M 71.434287,220.78148 V 205.41349"
+             style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.55445325;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+          <path
+             style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.55445325;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+             d="M 60.921685,220.78148 V 205.41349"
+             id="path1252"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path1254"
+             d="M 66.177986,220.78148 V 205.41349"
+             style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.55445325;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path1256"
+             d="M 55.665385,220.78148 V 205.41349"
+             style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.55445325;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+        </g>
+        <rect
+           style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.34438181;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+           id="rect1260"
+           width="23.319269"
+           height="4.2763128"
+           x="-74.841965"
+           y="202.64056"
+           transform="scale(-1,1)"
+           ry="2.1717687"
+           rx="2.1739304" />
+      </g>
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="m -314.39711,104.58699 -6.58967,12.29573"
+         id="path1850"
+         inkscape:connector-curvature="0" />
+      <rect
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         rx="2.3623514"
+         ry="2.3623514"
+         y="116.061"
+         x="-335.71548"
+         height="4.5531774"
+         width="110.55803"
+         id="rect1863"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <ellipse
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         ry="0.86510366"
+         rx="0.84239036"
+         cy="118.38313"
+         cx="-332.68741"
+         id="path1865"
+         style="opacity:1;vector-effect:none;fill:#8d99a6;fill-opacity:1;stroke:none;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <ellipse
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         style="opacity:1;vector-effect:none;fill:#8d99a6;fill-opacity:1;stroke:none;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="ellipse1867"
+         cx="-313.33521"
+         cy="118.38313"
+         rx="0.84239036"
+         ry="0.86510366" />
+      <ellipse
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         ry="0.86510366"
+         rx="0.84239036"
+         cy="118.38313"
+         cx="-296.35077"
+         id="ellipse1869"
+         style="opacity:1;vector-effect:none;fill:#8d99a6;fill-opacity:1;stroke:none;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <ellipse
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         style="opacity:1;vector-effect:none;fill:#8d99a6;fill-opacity:1;stroke:none;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="ellipse1871"
+         cx="-277.77267"
+         cy="118.38313"
+         rx="0.84239036"
+         ry="0.86510366" />
+      <ellipse
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         ry="0.86510366"
+         rx="0.84239036"
+         cy="118.38313"
+         cx="-260.83377"
+         id="ellipse1873"
+         style="opacity:1;vector-effect:none;fill:#8d99a6;fill-opacity:1;stroke:none;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <ellipse
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         style="opacity:1;vector-effect:none;fill:#8d99a6;fill-opacity:1;stroke:none;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="ellipse1875"
+         cx="-243.80385"
+         cy="118.38313"
+         rx="0.84239036"
+         ry="0.86510366" />
+      <ellipse
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         ry="0.86510366"
+         rx="0.84239036"
+         cy="118.38313"
+         cx="-228.59529"
+         id="ellipse1877"
+         style="opacity:1;vector-effect:none;fill:#8d99a6;fill-opacity:1;stroke:none;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path1879"
+         d="m -325.60197,104.00747 -9.80944,12.87525"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291675;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <g
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         id="g1915"
+         transform="matrix(-0.97982757,0,0,0.98076253,-252.63331,-108.84657)"
+         style="stroke-width:1.02010119">
+        <rect
+           style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.34950888;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+           id="rect1901"
+           width="26.836311"
+           height="22.111607"
+           x="-76.475807"
+           y="202.12459"
+           transform="scale(-1,1)"
+           rx="4.6371264"
+           ry="4.6327052" />
+        <g
+           id="g1911"
+           transform="matrix(1,0,0,0.7479799,-0.49218448,56.150107)"
+           style="stroke-width:1.17950094">
+          <path
+             inkscape:connector-curvature="0"
+             id="path1903"
+             d="M 71.434287,220.78148 V 205.41349"
+             style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.56038141;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+          <path
+             style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.56038141;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+             d="M 60.921685,220.78148 V 205.41349"
+             id="path1905"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path1907"
+             d="M 66.177986,220.78148 V 205.41349"
+             style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.56038141;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path1909"
+             d="M 55.665385,220.78148 V 205.41349"
+             style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.56038141;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+        </g>
+        <rect
+           style="opacity:1;vector-effect:none;fill:#8d99a6;fill-opacity:1;stroke:none;stroke-width:1.34950888;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+           id="rect1913"
+           width="21.413914"
+           height="2.9299917"
+           x="-73.726639"
+           y="203.66191"
+           transform="scale(-1,1)"
+           ry="2.1800957"
+           rx="2.1821766" />
+      </g>
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         inkscape:connector-curvature="0"
+         id="path1923"
+         d="m -316.59095,132.27031 h 62.47348"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291687;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <rect
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         ry="2.3623507"
+         rx="2.3623507"
+         y="52.969589"
+         x="-283.47839"
+         height="15.207609"
+         width="7.2855382"
+         id="rect1930"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291687;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         transform="matrix(0.65902324,0,0,-0.65826751,-96.313037,27.091946)"
+         inkscape:transform-center-y="0.92076713"
+         inkscape:transform-center-x="0.047512787"
+         d="m -269.91503,-53.565747 -18.06409,0.27428 -5.84296,-17.095206 14.45293,-10.839699 14.77537,10.395904 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.5556137"
+         sodipodi:arg1="0.92729522"
+         sodipodi:r2="12.432971"
+         sodipodi:r1="15.367998"
+         sodipodi:cy="-65.860146"
+         sodipodi:cx="-279.13583"
+         sodipodi:sides="5"
+         id="path1941"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:2.0085423;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         sodipodi:type="star" />
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         sodipodi:nodetypes="cccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path1943"
+         d="m -286.83154,62.104726 -2.94927,11.267081 9.52492,7.135397 9.73709,-6.843069 -2.60513,-11.351253 c -4.30494,-2.579744 -8.84375,-2.937864 -13.70761,-0.208156 z m 3.19428,4.754838 c 2.13937,-1.65244 4.40645,-2.410982 7.14175,0.107761 l 1.01827,5.481682 -4.72387,3.307242 -4.62126,-3.448179 z"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291698;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291687;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="m -310.39066,80.608716 h 62.47348"
+         id="path1975"
+         inkscape:connector-curvature="0" />
+      <rect
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         transform="matrix(0.66326264,-0.74838671,0.74775196,0.66397817,0,0)"
+         rx="2.3623486"
+         ry="2.362349"
+         y="-163.19478"
+         x="-257.06442"
+         height="13.576167"
+         width="18.486816"
+         id="rect1885"
+         style="opacity:1;vector-effect:none;fill:#f0f4f7;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291722;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path1955"
+         d="m -280.2088,80.136435 -0.13659,-4.325519 5.05434,-3.688074 3.05081,3.05063 z"
+         style="fill:#f0f4f7;fill-opacity:1;stroke:none;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#8d99a6;stroke-width:1.32291698;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="m -280.25589,80.507204 9.73709,-6.843069 m -4.95844,-1.215128 -4.72387,3.307242 -0.0547,4.750955"
+         id="path1953" />
+      <ellipse
+         ry="1.1155285"
+         rx="1.1155981"
+         inkscape:export-ydpi="41.535992"
+         inkscape:export-xdpi="41.535992"
+         inkscape:export-filename="/home/raghu/github/frappe-bench/apps/foundation/foundation/public/img/manufacturing-domain.png"
+         cy="62.8116"
+         cx="-280.00388"
+         id="path1957"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#8d99a6;stroke-width:1.3229171;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+    </g>
+  </g>
+</svg>
