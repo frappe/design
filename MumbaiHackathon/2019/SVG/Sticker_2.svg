@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1500 414" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-2577,-3094)">
+        <g id="Sticker" transform="matrix(1.5,0,0,0.413874,2577,3094)">
+            <rect x="0" y="0" width="1000" height="1000" style="fill:none;"/>
+            <g transform="matrix(0.651034,0,0,1.94749,-1682.27,-100.484)">
+                <path d="M4077,149.9C4077,127.879 4062.24,110 4044.07,110L2659.93,110C2641.76,110 2627,127.879 2627,149.9L2627,469.1C2627,491.121 2641.76,509 2659.93,509L4044.07,509C4062.24,509 4077,491.121 4077,469.1L4077,149.9Z"/>
+            </g>
+            <g transform="matrix(12.1279,0,0,43.9551,-9192.53,-17079.3)">
+                <text x="767.746px" y="403.686px" style="font-family:'Khand-Medium', 'Khand Medium';font-weight:500;font-size:12px;fill:rgb(255,243,0);">मुंबई</text>
+                <text x="787.102px" y="403.686px" style="font-family:'Khand-Medium', 'Khand Medium';font-weight:500;font-size:12px;fill:white;">Hackathon</text>
+            </g>
+        </g>
+    </g>
+</svg>
