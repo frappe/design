@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>frappe-logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="frappe-logo" transform="translate(-140.000000, -140.000000)" fill="#5E64FF">
+            <g transform="translate(140.000000, 140.000000)" id="Rectangle">
+                <path d="M20,0 L180,0 C191.045695,-2.02906125e-15 200,8.954305 200,20 L200,30 C200,41.045695 191.045695,50 180,50 L20,50 C8.954305,50 1.3527075e-15,41.045695 0,30 L0,20 C-1.3527075e-15,8.954305 8.954305,2.02906125e-15 20,0 Z"></path>
+                <path d="M20,75 L113,75 C124.045695,75 133,83.954305 133,95 L133,105 C133,116.045695 124.045695,125 113,125 L20,125 C8.954305,125 1.3527075e-15,116.045695 0,105 L0,95 C-1.3527075e-15,83.954305 8.954305,75 20,75 Z"></path>
+                <path d="M20,150 L47,150 C58.045695,150 67,158.954305 67,170 L67,180 C67,191.045695 58.045695,200 47,200 L20,200 C8.954305,200 1.3527075e-15,191.045695 0,180 L0,170 C-1.3527075e-15,158.954305 8.954305,150 20,150 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
