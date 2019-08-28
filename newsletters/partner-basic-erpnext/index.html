@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8"> <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+    <title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+    <link href="https://rsms.me/inter/inter.css" rel="stylesheet">
+
+	<!-- CSS Reset : BEGIN -->
+	<style>
+			body {
+				margin: 0 auto !important;
+				padding: 0 !important;
+				height: 100% !important;
+				width: 100% !important;
+				background: #EDF2F7;
+			}
+
+			/* What it does: Stops email clients resizing small text. */
+			* {
+				-ms-text-size-adjust: 100%;
+				-webkit-text-size-adjust: 100%;
+			}
+
+			/* What it does: Centers email on Android 4.4 */
+			div[style*="margin: 16px 0"] {
+				margin: 0 !important;
+			}
+
+			/* What it does: Stops Outlook from adding extra spacing to tables. */
+			table,
+			td {
+				mso-table-lspace: 0pt !important;
+				mso-table-rspace: 0pt !important;
+			}
+
+			/* What it does: Fixes webkit padding issue. */
+			table {
+				border-spacing: 0 !important;
+				border-collapse: collapse !important;
+				table-layout: fixed !important;
+				margin: 0 auto !important;
+			}
+
+			/* What it does: Uses a better rendering method when resizing images in IE. */
+			img {
+				-ms-interpolation-mode:bicubic;
+			}
+
+			/* What it does: Prevents Windows 10 Mail from underlining links despite inline CSS. Styles for underlined links should be inline. */
+			a {
+				text-decoration: none;
+			}
+
+			/* What it does: A work-around for email clients meddling in triggered links. */
+			*[x-apple-data-detectors],  /* iOS */
+			.unstyle-auto-detected-links *,
+			.aBn {
+				border-bottom: 0 !important;
+				cursor: default !important;
+				color: inherit !important;
+				text-decoration: none !important;
+				font-size: inherit !important;
+				font-family: inherit !important;
+				font-weight: inherit !important;
+				line-height: inherit !important;
+			}
+
+			/* What it does: Prevents Gmail from displaying a download button on large, non-linked images. */
+			.a6S {
+				display: none !important;
+				opacity: 0.01 !important;
+			}
+
+			/* What it does: Prevents Gmail from changing the text color in conversation threads. */
+			.im {
+				color: inherit !important;
+			}
+
+			/* If the above doesn't work, add a .g-img class to any image in question. */
+			img.g-img + div {
+				display: none !important;
+			}
+
+			/* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89  */
+			/* Create one of these media queries for each additional viewport size you'd like to fix */
+
+			/* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+			@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+				u ~ div .email-container {
+					min-width: 320px !important;
+				}
+			}
+			/* iPhone 6, 6S, 7, 8, and X */
+			@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+				u ~ div .email-container {
+					min-width: 375px !important;
+				}
+			}
+			/* iPhone 6+, 7+, and 8+ */
+			@media only screen and (min-device-width: 414px) {
+				u ~ div .email-container {
+					min-width: 414px !important;
+				}
+			}
+	</style>
+	<style>
+			html { font-family: 'Inter', sans-serif; }
+
+			@supports (font-variation-settings: normal) {
+			  html { font-family: 'Inter var', sans-serif; }
+			}
+
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				font-size: 15px;
+				color: #2d3748;
+			}
+
+			h1 {
+				font-size: 2.5rem;
+				margin-bottom: 0.5rem;
+			}
+
+			h2 {
+				font-size: 2rem;
+			}
+
+			h5 {
+				font-weight: 500;
+				margin-top: 0;
+				line-height: 1.2;
+				font-size: 1.25rem;
+			}
+
+			p.lead {
+				color: #718096;
+				line-height: 1.5;
+				font-size: 1.25rem;
+				font-weight: 400;
+				max-width: 75%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			section {
+				padding-top: 3rem;
+				padding-bottom: 3rem;
+				text-align: center;
+			}
+
+			.bg-dark {
+				background-color: #2D3748 !important;
+			}
+
+			.text-white {
+				color: #fff;
+			}
+
+			.section-light {
+				background-color: #F7FAFC;
+			}
+
+			.row {
+				display: flex;
+				flex-wrap: wrap;
+				margin-right: 20px;
+				margin-left: 20px;
+			}
+
+			.col-sm-4 {
+				flex: 0 0 33.33333%;
+				max-width: 33.33333%;
+				position: relative;
+				width: 100%;
+				padding-right: 10px;
+				padding-left: 10px;
+			}
+
+			.mb-4, .my-4 {
+				margin-bottom: 1.5rem !important;
+			}
+
+
+			.mt-4 {
+				margin-top: 1.5rem !important;
+			}
+
+			.mt-5 {
+				margin-top: 3rem !important;
+			}
+
+			.pt-4, .py-4 {
+				padding-top: 1.5rem !important;
+			}
+
+			.card {
+				box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+				border: 1px solid #EDF2F7;
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				min-width: 0;
+				word-wrap: break-word;
+				background-color: #fff;
+				background-clip: border-box;
+				border: 1px solid #E2E8F0;
+				border-radius: 0.25rem;
+			}
+
+			.h-100 {
+				height: 100% !important;
+			}
+
+			.card-body {
+				line-height: 1.7;
+				color: #718096;
+				flex: 1 1 auto;
+				padding: 1.25rem;
+			}
+
+			.card-title {
+				margin-bottom: 0.75rem;
+			}
+
+			.text-left {
+				text-align: left !important;
+			}
+
+			.card-body .card-body h1, .card-body h4, .card-body h5, .card-body h6 {
+				color: #2D3748;
+			}
+
+			.btn:hover {
+				box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.11), 0 5px 10px 0 rgba(0, 0, 0, 0.08);
+			}
+			.btn-primary:hover {
+				color: #fff;
+				background-color: #485ac4;
+				border-color: #3f51c1;
+			}
+			.btn:hover {
+				color: #2D3748;
+				text-decoration: none;
+			}
+			a.btn, a.card {
+				text-decoration: none !important;
+			}
+			a:hover {
+				color: black;
+				text-decoration: underline;
+			}
+			.btn-lg, .btn-group-lg > .btn {
+				padding: 0.5rem 1rem;
+				font-size: 1.25rem;
+				line-height: 1.5;
+				border-radius: 0.3rem;
+			}
+
+			.btn {
+				display: inline-block;
+				font-weight: 400;
+				color: #2D3748;
+				text-align: center;
+				vertical-align: middle;
+				user-select: none;
+				padding: 0.375rem 0.75rem;
+				font-size: 1rem;
+				line-height: 1.5;
+				border-radius: 0.25rem;
+				transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+			}
+
+			.btn-primary {
+				color: #fff !important;
+				background-color: #6574CD !important;
+				border-color: #6574CD !important;
+			}
+
+			.btn-lg {
+				padding: 0.5rem 1rem !important;
+				font-size: 1.25rem !important;
+				line-height: 1.5 !important;
+				border-radius: 0.3rem !important;
+			}
+	</style>
+</head>
+
+<body width="100%">
+	<div style="max-width: 840px; margin: 0 auto; background-color: #fff;" class="email-container">
+		<section>
+			<h1>Everything your organization needs</h1>
+			<p class="lead">ERPNext is the world's best 100% open source ERP, used by more than 5000 companies across the world.</p>
+			<p class="mt-4">
+				<a class="btn btn-primary btn-lg" href="/pricing">Start Free Trial</a>
+			</p>
+		</section>
+		<section class="section-light">
+				<div class="row mt-5">
+						<div class="col-sm-4 mb-4">
+							<div class="card h-100 card-with-link">
+								<div class="card-body text-left">
+									<h5 class="card-title">Accounting</h5>
+									<div>Get a real time view of your cash flow. Full fledged accounting module covering every aspect of book keeping.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-4">
+							<div class="card h-100 card-with-link">
+								<div class="card-body text-left">
+									<h5 class="card-title">CRM</h5>
+									<div>Win and retain more customers by optimising sales process. Track leads, opportunities and send the quotes on the go</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-4">
+							<div class="card h-100 card-with-link">
+								<div class="card-body text-left">
+									<h5 class="card-title">Asset Management</h5>
+									<div>Maintain and Manage details of assets, their movement, value adjustment and depreciation.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-4">
+							<div class="card h-100 card-with-link">
+								<div class="card-body text-left">
+									<h5 class="card-title">Sales &amp; Purchase</h5>
+									<div>Increase productivity and lower costs by managing your sales and purchase cycles, from purchase to sales orders.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-4">
+							<div class="card h-100 card-with-link">
+								<div class="card-body text-left">
+									<h5 class="card-title">Inventory &amp; Warehouse</h5>
+									<div>Track Inventory movement across multiple locations in real time also know valuation of your inventory in real time.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-4">
+							<div class="card h-100 card-with-link">
+								<div class="card-body text-left">
+									<h5 class="card-title">Manufacturing</h5>
+									<div> Effectively maintain &amp; manage multilevel bill of materials, production planning, job cards &amp; inventory.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-4">
+							<div class="card h-100 card-with-link">
+								<div class="card-body text-left">
+									<h5 class="card-title">Projects</h5>
+									<div>Deliver both internal and external projects on time, budget and profitability. Track tasks, timesheets and issues by project.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-4">
+							<div class="card h-100 card-with-link">
+								<div class="card-body text-left">
+									<h5 class="card-title">HR &amp; Payroll</h5>
+									<div>Manage full employee life cycle right from on-boarding, payroll, attendance, expense claims, assets to separation.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-4">
+							<div class="card h-100 card-with-link">
+								<div class="card-body text-left">
+									<h5 class="card-title">Website and E-Commerce</h5>
+									<div>ERPNext has a fully featured content management with blogs, web pages, forms and a state-of-the art web-shop integrated with CRM and Accounting</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-4">
+							<div class="card h-100 card-with-link">
+								<div class="card-body text-left">
+									<h5 class="card-title">Retail POS</h5>
+									<div>Web based Retail POS with integrated accounting that also works offline.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-4">
+							<div class="card h-100 card-with-link">
+								<div class="card-body text-left">
+									<h5 class="card-title">Helpdesk</h5>
+									<div>Deliver a better service experience with an intuitive issue tracker and integrated knowledge base.</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 mb-4">
+							<div class="card h-100 card-with-link">
+								<div class="card-body text-left">
+									<h5 class="card-title">Integrations</h5>
+									<div>Integrates with all your favourite apps like Shopify, Woocommerce, AmazonMWS and many more via open API.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+		</section>
+		<section class="bg-dark">
+			<a href="https://erpnext.com/signup?plan=P-Standard" target="blank">
+				<h2 class="text-white">Sign Up Now</h2>
+			</a>
+		</section>
+	</div>
+</body>
+</html>
